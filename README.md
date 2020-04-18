@@ -14,14 +14,14 @@ https://immport.org/shared/home
 
 ## Features include:
 
-         **1. Event sub-sampling**
-         **2. Data transformation**
-          **3. TSNE and UMAP dimensionality reduction**
-          **4. Phenograph clusering**
-          **5. Heatmap and ridgeplots for marker expression across clusters**
-          **6. Sample-wise distribution of clusters: a) scatter plots, b) heatmap**
-          **7. Bar plots for select marker expression between clusters**
-          **8. 2x2 plots of markers: a) manually enter 2 markers, b) provide a list of markers and automatically generate a matrix**
+   1. Event sub-sampling
+   2. Data transformation
+   3. TSNE and UMAP dimensionality reduction
+   4. Phenograph clusering
+   5. Heatmap and ridgeplots for marker expression across clusters
+   6. Sample-wise distribution of clusters: a) scatter plots, b) heatmap
+   7. Bar plots for select marker expression between clusters
+   8. 2x2 plots of markers: a) manually enter 2 markers, b) provide a list of markers and automatically generate a matrix
 
 
 ## Part1 :- Read in and subsample CyTOF data

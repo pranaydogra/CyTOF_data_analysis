@@ -5,7 +5,7 @@ The data used in for the analysis presented here is from the following manuscrip
 
 Michelle Miron, Brahma V. Kumar, Wenzhao Meng, Tomer Granot, Dustin J. Carpenter, Takashi Senda, Dora Chen, Aaron M. Rosenfeld, Bochao Zhang, Harvey Lerner, Amy L. Friedman, Uri Hershberg, Yufeng Shen, Adeeb Rahman, Eline T. Luning Prak, Donna L. Farber. The Journal of Immunology August 15, 2018, ji1800716; DOI: 10.4049/jimmunol.1800716 
 
-I have uploaded some of the file in the data folder.
+I have uploaded some of the data files in the Data folder.
 
 **NOTE:** I could not upload the data file for D333 LLN (which is included in the samle analysis) due to file size restrictions.
 
@@ -14,14 +14,14 @@ https://immport.org/shared/home
 
 ## Features include:
 
-**1. Event sub-sampling**
-**2. Data transformation**
-**3. TSNE and UMAP dimensionality reduction**
-**4. Phenograph clusering**
-**5. Heatmap and ridgeplots for marker expression across clusters**
-**6. Sample-wise distribution of clusters: a) scatter plots, b) heatmap**
-**7. Bar plots for select marker expression between clusters**
-**8. 2x2 plots of markers: a) manually enter 2 markers, b) provide a list of markers and automatically generate a matrix**
+Markup :  **1. Event sub-sampling**
+          **2. Data transformation**
+          **3. TSNE and UMAP dimensionality reduction**
+          **4. Phenograph clusering**
+          **5. Heatmap and ridgeplots for marker expression across clusters**
+          **6. Sample-wise distribution of clusters: a) scatter plots, b) heatmap**
+          **7. Bar plots for select marker expression between clusters**
+          **8. 2x2 plots of markers: a) manually enter 2 markers, b) provide a list of markers and automatically generate a matrix**
 
 
 ## Part1 :- Read in and subsample CyTOF data
@@ -42,4 +42,4 @@ https://immport.org/shared/home
 
 ![sample_2x2_plot_matrix](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part4.png)
 
-## After selecting the cell clusters, steps 2-4 can be re-run for a more detailed analysis of the cell subsets of interest
+**After selecting the cell clusters, steps 2-4 can be re-run for a more detailed analysis of the cell subsets of interest**

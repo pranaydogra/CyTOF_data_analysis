@@ -22,6 +22,8 @@ https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.tif
 ## Part3:- Identification of cell clusters of interest
 **Generate heatmaps and ridgeplots to identify cell clusters of interest**
 
+https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part3.tif
+
 ## Part 4:- Subset data based on clusters of interest
 
 After selecting the cell clusters steps 2 - 4 can be re-run for a more detailed analysis of the cell subsets of interest

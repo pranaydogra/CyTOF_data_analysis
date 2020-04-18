@@ -35,6 +35,7 @@ https://immport.org/shared/home
 **Arcsin transform the data and run dimensionality reduction using TSNE and UMAP. Then run Louvain clustering to identify cluster of cells**
 
 ![sample_tsne_cluster_frequency](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.png)
+![CD3_CD4_jet_colormap](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/CD3_CD4_jet_colormap.png)
 
 ## Part3: Identification of cell clusters of interest
 **Generate heatmaps and ridgeplots to identify cell clusters of interest**

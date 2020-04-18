@@ -27,6 +27,8 @@ https://immport.org/shared/home
 ## Part1 :- Read in and subsample CyTOF data
 **Open the fcs files within Python and merges the files in a single step w/o having to open the files in FCS Express or Flowjo.**
 
+**NOTE:** I have noticed that sometimes while trying to read in the .fcs files I get a header error. Incase you get this error, run the fix_cytof_files.R script. This script opens the files in R usign the flowcore package and saves it again over writing the original file with a "fixed" file. These files then open without any issue.
+
 ## Part 2:- Data transformation and dimensionality reduction
 **Arcsin transform the data and run dimensionality reduction using TSNE and UMAP. Then run Louvain clustering to identify cluster of cells**
 
@@ -42,4 +44,5 @@ https://immport.org/shared/home
 
 ![sample_2x2_plot_matrix](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part4.png)
 
+## Next steps:
 **After selecting the cell clusters, steps 2-4 can be re-run for a more detailed analysis of the cell subsets of interest**

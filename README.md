@@ -17,13 +17,16 @@ https://immport.org/shared/home
 ## Part 2:- Data transformation and dimensionality reduction
 **Arcsin transform the data and run dimensionality reduction using TSNE and UMAP. Then run Louvain clustering to identify cluster of cells**
 
-https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.tif
+![sample_tsne_cluster_frequency] https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.tif
 
 ## Part3:- Identification of cell clusters of interest
 **Generate heatmaps and ridgeplots to identify cell clusters of interest**
 
 https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part3.tif
 
-## Part 4:- Subset data based on clusters of interest
+## Part 4:- Subset data based on clusters of interest and visualize key markers
+**Generate individual dataframes for each of the cell subset and visualize expression data as 2x2 plots**
 
-After selecting the cell clusters steps 2 - 4 can be re-run for a more detailed analysis of the cell subsets of interest
+https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part4.gif
+
+## After selecting the cell clusters, steps 2-4 can be re-run for a more detailed analysis of the cell subsets of interest

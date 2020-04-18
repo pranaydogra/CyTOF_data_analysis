@@ -1,4 +1,4 @@
-# CyTOF_data_analysis
+# CyTOF data analysis
 
 A pipeline for analyzing CyTOF data using Python.
 The data used in for the analysis presented here is from the following manuscript:
@@ -25,22 +25,22 @@ https://immport.org/shared/home
 
 **Still to come:** Add statistics to bar plots. Subsample based on proportion instead of cell number. Color 2x2 plots based on level of expression of marker... and more.
 
-## Part1 :- Read in and subsample CyTOF data
+## Part1 : Read in and subsample CyTOF data
 **Open the fcs files within Python and merges the files in a single step w/o having to open the files in FCS Express or Flowjo.**
 
 **NOTE:** I have noticed that sometimes while trying to read in the .fcs files I get a header error. Incase you get this error, run the fix_cytof_files.R script. This script opens the files in R usign the flowcore package and saves it again over writing the original file with a "fixed" file. These files then open without any issue.
 
-## Part 2:- Data transformation and dimensionality reduction
+## Part 2: Data transformation and dimensionality reduction
 **Arcsin transform the data and run dimensionality reduction using TSNE and UMAP. Then run Louvain clustering to identify cluster of cells**
 
 ![sample_tsne_cluster_frequency](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.png)
 
-## Part3:- Identification of cell clusters of interest
+## Part3: Identification of cell clusters of interest
 **Generate heatmaps and ridgeplots to identify cell clusters of interest**
 
 ![sample_heatmap_ridgeplot](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part3.png)
 
-## Part 4:- Subset data based on clusters of interest and visualize key markers
+## Part 4: Subset data based on clusters of interest and visualize key markers
 **Generate individual dataframes for each of the cell subset and visualize expression data as 2x2 plots**
 
 ![sample_2x2_plot_matrix](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part4.png)

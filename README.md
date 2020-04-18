@@ -11,22 +11,34 @@ I have uploaded some of the file in the data folder.
 The full dataset can be downloaded from the Immport website:
 https://immport.org/shared/home
 
+## Features include:
+
+**1. Event sub-sampling**
+**2. Data transformation**
+**3. TSNE and UMAP dimensionality reduction**
+**4. Phenograph clusering**
+**5. Heatmap and ridgeplots for marker expression across clusters**
+**6. Sample-wise distribution of clusters: a) scatter plots, b) heatmap**
+**7. Bar plots for select marker expression between clusters**
+**8. 2x2 plots of markers: a) manually enter 2 markers, b) provide a list of markers and automatically generate a matrix**
+
+
 ## Part1 :- Read in and subsample CyTOF data
 **Open the fcs files within Python and merges the files in a single step w/o having to open the files in FCS Express or Flowjo.**
 
 ## Part 2:- Data transformation and dimensionality reduction
 **Arcsin transform the data and run dimensionality reduction using TSNE and UMAP. Then run Louvain clustering to identify cluster of cells**
 
-![sample_tsne_cluster_frequency](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.tif)
+![sample_tsne_cluster_frequency](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part2.png)
 
 ## Part3:- Identification of cell clusters of interest
 **Generate heatmaps and ridgeplots to identify cell clusters of interest**
 
-https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part3.tif
+![sample_heatmap_ridgeplot](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part3.png)
 
 ## Part 4:- Subset data based on clusters of interest and visualize key markers
 **Generate individual dataframes for each of the cell subset and visualize expression data as 2x2 plots**
 
-https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part4.gif
+![sample_2x2_plot_matrix](https://github.com/pranaydogra/CyTOF_data_analysis/blob/master/part4.png)
 
 ## After selecting the cell clusters, steps 2-4 can be re-run for a more detailed analysis of the cell subsets of interest

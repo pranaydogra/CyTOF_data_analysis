@@ -22,8 +22,9 @@ https://immport.org/shared/home
    6. Sample-wise distribution of clusters: a) scatter plots, b) heatmap
    7. Bar plots for select marker expression between clusters
    8. 2x2 plots of markers: a) manually enter 2 markers, b) provide a list of markers and automatically generate a matrix
+   9. Scatter plot showing tsne or umap embedding with dots colored by marker expression level
 
-**Still to come:** Add statistics to bar plots. Subsample based on proportion instead of cell number. Color 2x2 plots based on level of expression of marker... and more.
+**Still to come:** Add statistics to bar plots. Subsample based on proportion instead of cell number... and more.
 
 ## Part1 : Read in and subsample CyTOF data
 **Open the fcs files within Python and merges the files in a single step w/o having to open the files in FCS Express or Flowjo.**

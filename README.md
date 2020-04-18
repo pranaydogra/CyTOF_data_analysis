@@ -14,8 +14,8 @@ https://immport.org/shared/home
 
 ## Features include:
 
-Markup :  **1. Event sub-sampling**
-          **2. Data transformation**
+         **1. Event sub-sampling**
+         **2. Data transformation**
           **3. TSNE and UMAP dimensionality reduction**
           **4. Phenograph clusering**
           **5. Heatmap and ridgeplots for marker expression across clusters**

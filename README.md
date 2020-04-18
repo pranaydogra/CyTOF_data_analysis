@@ -1,7 +1,7 @@
 # CyTOF data analysis
 
 A pipeline for analyzing CyTOF data using Python.
-The data used in for the analysis presented here is from the following manuscript:
+The data used for the analysis presented here is from the following manuscript:
 
 Michelle Miron, Brahma V. Kumar, Wenzhao Meng, Tomer Granot, Dustin J. Carpenter, Takashi Senda, Dora Chen, Aaron M. Rosenfeld, Bochao Zhang, Harvey Lerner, Amy L. Friedman, Uri Hershberg, Yufeng Shen, Adeeb Rahman, Eline T. Luning Prak, Donna L. Farber. The Journal of Immunology August 15, 2018, ji1800716; DOI: 10.4049/jimmunol.1800716 
 

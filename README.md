@@ -1,6 +1,15 @@
 # CyTOF_data_analysis
 
 A pipeline for analyzing CyTOF data using Python.
+The data used in for the analysis presented here is from the following manuscript:
+
+Michelle Miron, Brahma V. Kumar, Wenzhao Meng, Tomer Granot, Dustin J. Carpenter, Takashi Senda, Dora Chen, Aaron M. Rosenfeld, Bochao Zhang, Harvey Lerner, Amy L. Friedman, Uri Hershberg, Yufeng Shen, Adeeb Rahman, Eline T. Luning Prak, Donna L. Farber. The Journal of Immunology August 15, 2018, ji1800716; DOI: 10.4049/jimmunol.1800716 
+
+I have uploaded some of the file in the data folder.
+NOTE: I could not upload the data file for 
+
+The full dataset can be downloaded from the Immport website:
+https://immport.org/shared/home
 
 ## Part1 :- Read in and subsample CyTOF data
 **Open the fcs files within Python and merges the files in a single step w/o having to open the files in FCS Express or Flowjo.**
